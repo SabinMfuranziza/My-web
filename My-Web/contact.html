@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="intro">
+        <h2><a href="home.html">Home</a></h2>
+        <h2><a href="About.html">About</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
+        <h2><a href="project.html">Project</a></h2>
+    </div>
+    <div class="description">
+        <h2>How Would You Like To Contact Us ?</h2>
+    </div>
+    <div class="inputs">
+        <div id="inp1" class="inp">
+            <h2>Request A Call</h2>
+            <p>Give Us Some Information So That The Right Person Gets Back To You</p>
+            <div class="inp11">
+                <input type="text" id="name" class="text" placeholder="Name">
+                <span class="validation" id="name-status"></span>
+            </div>
+            <div class="inp12">
+                <input type="email" id="job-title" class="text" placeholder="Email">
+                <span class="validation" id="job-title-validation"></span>
+                <input type="phone" id="phone" class="text" placeholder="Phone">
+                <span class="validation" id="phone-validation"></span>
+                <textarea id="message" class="text" placeholder="Message"></textarea>
+                <span class="validation" id="message-validation"></span>
+            </div>
+            <p>By registering, your personal data is handled by Salesforce as described in the <a href="">Privacy Statement</a></p>
+            <button type="button" onclick="myFunction()">Contact Me</button>
+        </div>
+        
+        <div class="inp2">
+            <div class="inp21">
+                <h2>Give Us A Call</h2>
+                <p>07554528812 <br><a href="">Not in the Us? Find your local office</a>
+                    <br><a href="">Get billing and tech support</a>
+                    <br><a href="">Manage biiling licences, and renewals in Your Account</a>
+                </p>
+            </div>
+
+            <div class="inp22">
+                <h2>Chat with us</h2>
+                <p>Get product info, login help,and live chat with an agent</p>
+                <button class="chat">LET'S CHAT</button>
+            </div>
+
+            <div class="inp23">
+                <h2>Leave us some feedback</h2>
+                <p>Good or bad, we love to hear it all</p>
+                <button class="chat">SEND FEEDBACK</button>
+            </div>
+    
+        </div>
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>
